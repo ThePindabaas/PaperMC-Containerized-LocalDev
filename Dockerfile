@@ -1,0 +1,7 @@
+FROM docker.io/eclipse-temurin:25-jre
+
+ADD https://fill-data.papermc.io/v1/objects/0555a0b0468a5198d8fb1a16e1f9e95c81a917a2dc8f2e09867b4044742f6401/paper-26.1.2-72.jar /opt/minecraft/paper.jar
+
+EXPOSE 25565/tcp 25565/udp
+
+ENTRYPOINT ["java", "-Dcom.mojang.eula.agree=true", "-jar", "/opt/minecraft/paper.jar", "--nogui"]
