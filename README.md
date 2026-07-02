@@ -10,4 +10,6 @@ Place the plugins you want to test in the `plugins` folder.
 
 Run `make run` to start up the server.
 
-Connect to it as you would to another local MC server.
+Run `make shell` to attach a new sell session to the MC console.
+
+Connect to it from a client as you would to another local MC server.
