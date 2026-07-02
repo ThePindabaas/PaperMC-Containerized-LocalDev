@@ -1,4 +1,4 @@
-# PaperMC-Dockerized-LocalDev
+# PaperMC-Containerized-LocalDev
 
 Run paper from within Docker.
 
